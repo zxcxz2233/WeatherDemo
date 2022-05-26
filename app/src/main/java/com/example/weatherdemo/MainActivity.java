@@ -2,8 +2,15 @@ package com.example.weatherdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActivityManager;
+import android.content.pm.PackageManager;
+import android.net.wifi.WifiInfo;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.telephony.TelephonyManager;
 import android.widget.TextView;
+
+import java.net.NetworkInterface;
 
 public class MainActivity extends AppCompatActivity {
 
